@@ -26,7 +26,7 @@ def open_file(filename):
 def filter_errors():
     filename = input_value()
     now = datetime.datetime.now()
-    file_to_open = open('cpm_errors.txt', 'a')
+    file_to_open = open('errors.txt', 'a')
     lines_with_error = open_file(filename)
     for lines in lines_with_error:
         if "exception_1" in lines:
