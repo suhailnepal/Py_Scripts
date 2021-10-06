@@ -1,4 +1,4 @@
-# This is WIP, keys are hardcoded here just for the script to run, please use key vault in production. 
+# This is WIP, keys are hardcoded here just for the script to run, please use key vault in production
 # This lambda function written in python will query Cricapi.com's api to fetch cricket score and post it in Slack using webhook. 
 # Note that the variables unique_id, webhook_url and url are unique to your environment and should be changed as required.
 
